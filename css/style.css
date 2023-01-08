@@ -194,5 +194,20 @@ footer ul a {
 .container .cv-card .pt-1 {
   padding-top: 1rem;
 }
+.container .cv-card .text-center {
+  width: calc(100% - 2rem);
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  #about-main {
+    display: block;
+  }
+  .container {
+    width: calc(100% - 4rem);
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
