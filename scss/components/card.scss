@@ -28,3 +28,17 @@ main {
     }
   }
 }
+
+@media (min-width: 700px) {
+  main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    .card {
+      .card-desc {
+        p {
+          padding-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
