@@ -1,0 +1,38 @@
+@use "../globals/variables.scss" as variables;
+
+footer {
+  background-color: variables.$color-secondary;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.icon {
+  width: 24px;
+}
+
+@media (min-width: 700px) {
+  .content {
+    display: grid;
+    grid-template-columns: 80% 20%;
+  }
+
+  footer {
+    position: fixed;
+    left: 80%;
+    width: 20%;
+    height: 100%;
+  }
+}
