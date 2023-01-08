@@ -10,16 +10,16 @@
 
 #### Screenshots
 
-Index - Desktop mode
+Index - Desktop mode  
 ![Screenshot of the portfolio Index page in desktop mode](./readme_images/portfolio-desktop.jpg)
 
-Index - Mobile mode
+Index - Mobile mode  
 ![Screenshot of the portfolio Index page in mobile mode](./readme_images/portfolio-mobile.jpg)
 
-About me - Desktop mode
+About me - Desktop mode  
 ![Screenshot of the portfolio About me page in desktop mode](./readme_images/portfolio-about-desktop.jpg)
 
-About me - Mobile mode
+About me - Mobile mode  
 ![Screenshot of the portfolio About me page in mobile mode](./readme_images/portfolio-about-mobile.jpg)
 
 ---
