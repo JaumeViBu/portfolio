@@ -12,6 +12,10 @@ body {
   min-height: 100vh;
 }
 
+.bold {
+  font-weight: 600;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -136,6 +140,59 @@ footer ul a {
     width: 20%;
     height: 100%;
   }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+.container .contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 0.5rem;
+  background-color: #9c91b6;
+  border-radius: 20px;
+}
+.container .contact-card .contact-photo {
+  border-radius: 50%;
+  width: 90%;
+  border: 2px solid rgba(42, 42, 42, 0.2509803922);
+}
+.container .contact-card .contact-text {
+  text-align: start;
+  width: 80%;
+  padding: 0.5rem;
+  background-color: rgba(217, 217, 217, 0.3607843137);
+}
+.container .contact-card .contact-text p {
+  padding: 0.2rem;
+}
+.container .cv-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(217, 217, 217, 0.3607843137);
+  border-radius: 20px;
+  gap: 0rem;
+  width: 100%;
+  padding: 1rem 0;
+}
+.container .cv-card .entry {
+  padding: 0.5rem 0;
+}
+.container .cv-card p {
+  padding: 0rem 1rem;
+}
+.container .cv-card ul {
+  padding: 0.25rem 2rem;
+  padding-top: 0rem;
+}
+.container .cv-card .pt-1 {
+  padding-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
