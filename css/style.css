@@ -4,6 +4,12 @@
   font-family: "Calibri", Helvetica, sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 header {
   display: flex;
   flex-direction: column;
